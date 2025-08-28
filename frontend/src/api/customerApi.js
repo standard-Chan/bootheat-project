@@ -3,7 +3,8 @@ import axios from "axios";
 
 
 // BASE_URL 안전 기본값
-const BASE_URL = BASE || "http://localhost:8080/api";
+// const BASE_URL = BASE || "http://localhost:8080/api";
+const BASE_URL = BASE || "https://modney.shop/api";
 
 // --------------------------------------------------
 // axios 인스턴스

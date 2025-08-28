@@ -16,7 +16,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // 허용할 프론트 도메인
-        config.setAllowedOrigins(List.of("https://booth-eat-2.vercel.app", "http://localhost:3000","https://bootheat.vercel.app"));
+        config.setAllowedOrigins(List.of("https://booth-eat-2.vercel.app", "http://localhost:3000","https://bootheat.vercel.app","https://modney.shop"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS","PATCH"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
