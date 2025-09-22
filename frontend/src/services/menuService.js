@@ -9,6 +9,10 @@ const jsonOpts = (method, body) => ({
   body: JSON.stringify(body),
 });
 
+
+
+
+
 export async function fetchMenus(boothId) {
   const res = await fetch(`${BASE}/booths/${boothId}/menus`, { credentials: 'include' });
   if (!res.ok) throw new Error('메뉴 목록 조회 실패');
